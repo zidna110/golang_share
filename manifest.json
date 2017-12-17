@@ -1,0 +1,26 @@
+{
+    "incognito": "split",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm+5OYRPp67JEAtNDZ8FeogUfFVkqQWVOC8ywQgy89AEjDvrXoPkAhvuLv2bsoyt3OMMxbqtHBBqdsJV3i5W12Dmcu3Jbygkllp9LKtnxYfzH5XID1Es5q34G20T+/jF4jc8Eh+BKrYcttPe50qeQETdbU7bGYixGKXzrEaVKMErz4BePFpriiu5q0yubaodFDOKHW+T2K3wpgvAQ8+Yt0qtzk+mc49VKoV5XqK6GsP5ve2hvl7+ogve36fCGm+3v2kn/3PqMr67V02nPHAX7kH27IlOQ4ChG1RJieduuJA/lHJigPM59oCvLdnWDlsJWGbFjOzGtzRugX3JktphW3QIDAQAB",
+    "manifest_version": 2,
+    "name": "Go中文网分享阅读插件",
+    "permissions": [ "tabs" ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.2.2",
+    "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/32.png",
+      "default_title": "Go中文网分享阅读插件"
+   },
+   "chrome_url_overrides": {
+      "newtab": "blank.html"
+   },
+   "description": "一键分享你喜欢的内容到Go中文网，阅读Go中文网每日精选",
+   "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "96": "images/96.png"
+   }
+}
