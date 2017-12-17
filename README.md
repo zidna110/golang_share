@@ -1,3 +1,4 @@
 # golang_share
 golang中文网分享阅读插件
-This is a demo
+本地mock了开发者头条的json数据测试
+后面直接从golang拉取
